@@ -1,0 +1,26 @@
+fi
+echo "$a, $b, $c can be the sides of triangle"
+else
+exit
+echo "$a, $b, $c cannot be the sides of triangle"
+then
+if [ `expr $a + $b` -le $c -o `expr $a + $c` -le $b -o `expr $b + $c` -le $a ]
+fi
+c=$3
+b=$2
+a=$1
+else
+read c
+echo "Enter third side:"
+read b
+echo "Enter second side:"
+read a
+echo "Enter first side:"
+then
+if [ $# -eq 0 ]
+fi
+exit 1
+echo "Syntax Error.\nSyntax --> $0 [side1] [side2] [side3]"
+then
+if  [ $# -gt 3 -o $# -lt 3 -a $# -gt 0 ]
+#triangle or not
